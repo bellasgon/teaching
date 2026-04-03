@@ -13,4 +13,4 @@ title: Instructions
 - Deadline: 24 hours before the seminar  
 
 ## Important
-- Slides are NOT public due to data protection (GDPR)  
+- Students' slides are NOT public due to data protection (GDPR)  
