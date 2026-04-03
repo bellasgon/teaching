@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang | default: 'en' }}">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 
 <body>
+  <aside class="sidebar">
+    {% include sidebar.html %}
+  </aside>
 
-<div class="sidebar">
-  {% include sidebar.html %}
-</div>
-
-<div class="content">
-  {{ content }}
-</div>
-
+  <main class="content">
+    <div class="page-shell">
+      {{ content }}
+    </div>
+  </main>
 </body>
 </html>
