@@ -64,7 +64,7 @@ course_navigation:
 The sidebar is automatically rendered from `course_navigation`.
 
 - `main`: primary links (Home, Schedule, etc.)
-- `seminars`: weekly pages (`/seminars/week01`, ...)
+- `weeks`: weekly pages (`/seminars/week01`, ...)
 - `readings`: reading pages (`/readings/core`, ...)
 
 To add a new week:
@@ -73,7 +73,7 @@ To add a new week:
 2. Add it to `_config.yml`:
 
 ```yml
-seminars:
+weeks:
   - title: Week 3
     path: /seminars/week03
 ```
