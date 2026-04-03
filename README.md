@@ -64,7 +64,7 @@ course_navigation:
 The sidebar is automatically rendered from `course_navigation`.
 
 - `main`: primary links (Home, Schedule, etc.)
-- `weeks`: weekly pages (`/seminars/week01`, ...)
+- `seminars`: weekly pages (`/seminars/week01`, ...)
 - `readings`: reading pages (`/readings/core`, ...)
 
 To add a new week:
