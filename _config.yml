@@ -1,4 +1,36 @@
 title: Seminar Course
 description: Academic Seminar
+
+# GitHub Pages (template):
+# - user/organization site => baseurl: ""
+# - project site => baseurl: "/NOME-DO-REPO"
+url: ""
+baseurl: ""
+
 theme: null
 markdown: kramdown
+permalink: pretty
+
+# Modelo de navegação local (links da própria pasta/repositório).
+course_navigation:
+  main:
+    - title: Home
+      path: /
+    - title: Schedule
+      path: /schedule
+    - title: Instructions
+      path: /instructions
+  weeks:
+    - title: Week 1
+      path: /seminars/week01
+    - title: Week 2
+      path: /seminars/week02
+  readings:
+    - title: Core
+      path: /readings/core
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
