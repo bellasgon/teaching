@@ -96,10 +96,10 @@ a {
 }
 
 .home-logo {
-  width: 40px;
-  height: 40px;
-  max-width: 40px;
-  max-height: 40px;
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
   object-fit: contain;
   display: block;
   flex: 0 0 40px;
@@ -227,9 +227,9 @@ th {
 }
 
 .home-brand img {
-  width: 40px !important;
-  height: 40px !important;
-  max-width: 40px !important;
-  max-height: 40px !important;
+  width: 80px !important;
+  height: 80px !important;
+  max-width: 80px !important;
+  max-height: 80px !important;
   object-fit: contain !important;
 }
