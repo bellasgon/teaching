@@ -73,7 +73,7 @@ To add a new week:
 2. Add it to `_config.yml`:
 
 ```yml
-weeks:
+seminars:
   - title: Week 3
     path: /seminars/week03
 ```
