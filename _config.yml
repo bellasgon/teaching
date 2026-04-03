@@ -1,15 +1,18 @@
 title: Seminar Course
 description: Academic Seminar
 
-# GitHub Pages (template):
+# GitHub Pages:
 # - user/organization site => baseurl: ""
-# - project site => baseurl: "/NOME-DO-REPO"
+# - project site (repo "teaching") => baseurl: "/teaching"
 url: ""
 baseurl: "/teaching"
 
 theme: null
 markdown: kramdown
 permalink: pretty
+
+# Logo exibida no topo da sidebar (adicione o arquivo em assets/images/)
+course_logo: "/assets/images/jgu-logo.png"
 
 # Modelo de navegação local (links da própria pasta/repositório).
 course_navigation:

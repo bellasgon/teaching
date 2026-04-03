@@ -1,9 +1,7 @@
 <div class="brand">
-  <img
-    class="brand-logo"
-    src="{{ '/assets/images/jgu-logo.png' | relative_url }}"
-    alt="JGU logo"
-  >
+  {% if site.course_logo %}
+    <img class="brand-logo" src="{{ site.course_logo | relative_url }}" alt="JGU logo">
+  {% endif %}
   <h2>{{ site.title }}</h2>
 </div>
 <p class="muted">{{ site.description }}</p>
