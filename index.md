@@ -2,7 +2,12 @@
 title: "Home"
 ---
 
-# Seminar Course
+<div class="home-brand">
+  {% if site.course_logo %}
+    <img class="home-logo" src="{{ site.course_logo | relative_url }}" alt="JGU logo">
+  {% endif %}
+  <h1>Seminar Course</h1>
+</div>
 
 This seminar focuses on critical discussion of academic literature.
 

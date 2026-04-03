@@ -39,20 +39,6 @@ a {
   position: fixed;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.brand-logo {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-  border-radius: 6px;
-  background: #fff;
-}
-
 .sidebar h2 {
   margin: 0;
   font-size: 1.15rem;
@@ -100,6 +86,21 @@ a {
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 28px;
+}
+
+.home-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.home-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
 }
 
 h1 {
@@ -169,9 +170,9 @@ th {
     padding: 14px 12px;
   }
 
-  .brand-logo {
-    width: 26px;
-    height: 26px;
+  .home-logo {
+    width: 34px;
+    height: 34px;
   }
 
   .sidebar h2 {
