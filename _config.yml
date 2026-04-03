@@ -5,7 +5,7 @@ description: Academic Seminar
 # - user/organization site => baseurl: ""
 # - project site => baseurl: "/NOME-DO-REPO"
 url: ""
-baseurl: ""
+baseurl: "/teaching"
 
 theme: null
 markdown: kramdown
