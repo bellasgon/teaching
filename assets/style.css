@@ -96,11 +96,13 @@ a {
 }
 
 .home-logo {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
+  max-width: 40px;
+  max-height: 40px;
   object-fit: contain;
-  border-radius: 8px;
-  background: #fff;
+  display: block;
+  flex: 0 0 40px;
 }
 
 h1 {
@@ -168,11 +170,6 @@ th {
     border-right: none;
     border-bottom: 1px solid var(--border);
     padding: 14px 12px;
-  }
-
-  .home-logo {
-    width: 34px;
-    height: 34px;
   }
 
   .sidebar h2 {
