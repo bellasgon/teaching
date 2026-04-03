@@ -27,4 +27,5 @@ This seminar focuses on critical discussion of academic literature.
 
 ## Template do curso
 
-The sidebar links come from the section `course_navigation` at `_config.yml`.
+Os links da sidebar vêm da seção `course_navigation` no `_config.yml`.
+Assim você reaproveita o modelo só trocando os caminhos da própria pasta.
