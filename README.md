@@ -119,6 +119,4 @@ To create a new syllabus with this structure:
 3. Replace page content (`schedule.md`, `seminars/*`, `readings/*`).
 4. Deploy with GitHub Pages.
 
----
 
-Optional: you can extend this README with grading rubrics, assignment policies, and a student FAQ.
