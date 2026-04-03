@@ -211,3 +211,122 @@ td, th {
   padding: 10px;
   text-align: left;
 }
+
+/* ===== Mobile polish ===== */
+@media (max-width: 920px) {
+  :root {
+    --mobile-pad: 14px;
+  }
+
+  body {
+    background: #f7f8fc;
+  }
+
+  .sidebar {
+    padding: 14px var(--mobile-pad);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04);
+  }
+
+  .sidebar h2 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .sidebar .muted {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+
+  .sidebar h3 {
+    margin: 14px 0 6px;
+    font-size: 0.76rem;
+    letter-spacing: 0.04em;
+  }
+
+  .sidebar a {
+    padding: 10px 12px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+
+  .content {
+    padding: var(--mobile-pad);
+  }
+
+  .page-shell {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 1.45rem;
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    line-height: 1.3;
+    margin-top: 1.4rem;
+  }
+
+  p, li {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .card {
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+    padding: 11px 14px;
+  }
+
+  /* evita quebra feia de links/palavras longas */
+  .page-shell, .card, p, li, a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  /* tabela responsiva */
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+}
+
+/* celulares bem pequenos */
+@media (max-width: 420px) {
+  .sidebar {
+    padding: 12px 10px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .page-shell {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .sidebar a {
+    font-size: 0.92rem;
+  }
+}
